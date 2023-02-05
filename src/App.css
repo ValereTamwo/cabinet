@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+/* 
+header{
+  position: fixed;
+} */
+.marge{
+  margin-left: 10%;
+}
+
+.logo{
+height: 50px;
+width: 50px;
+margin-left: 20px;
+}
+
+.drop{
+  width: 100%;
+  height: 20vh;
+  border: 5px;
+  border-color: #ac9c0c;
+  }
+
+  .color{
+    color: white;
+  }
+footer{
+    height: 20vh;
+  }
