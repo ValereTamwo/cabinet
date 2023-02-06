@@ -29,7 +29,7 @@ function Navbar() {
         <ul className='navbar-nav ms-5 '>
           <li className='nav-item'><Link to='/' className='nav-link'>Accueil</Link></li>
           <li className='nav-item'><Link to='/' className='nav-link'>Services</Link></li>
-          <li className='nav-item'><Link to='/' className='nav-link'>A propos</Link></li>
+          <li className='nav-item'><Link to='/propos' className='nav-link'>A propos</Link></li>
         <li className='nav-item'><Link to='/galerie' className='nav-link'>Galerie</Link></li>
         <li className='nav-item'><Link to='/actualite' className='nav-link'>Actualite</Link></li>
         {/* <li className='nav-item'><Link to='/' className='nav-link'>BLog</Link></li> */}

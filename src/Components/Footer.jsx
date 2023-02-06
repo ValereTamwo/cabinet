@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className='container-fluid bg-dark mt-5 ' style={style}>
           <span className='text-white'>
-             Designer et Coder par Valere Tamwo
+             Designe et Code par Valere Tamwo
           </span>
     </footer>
   )

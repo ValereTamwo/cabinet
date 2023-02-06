@@ -30,7 +30,7 @@ function Date() {
             </div>
         <div className='container d-flex justify-content-center '>
                    <div className='col-12 col-md-8 mt-4 bg-light d-flex' style={style[0]}>
-                    <div className=' w-50    h-100 border border-start border-2 border-warning'>
+                    <div className=' w-50   p-3 h-100 border border-start rounded border-2 border-warning'>
                         <iframe src="https://calendar.google.com/calendar/embed?src=valeretamwo%40gmail.com&ctz=Africa%2FLagos" className='w-100 h-75'   frameborder="0">       </iframe>
                     </div>
                     <div className='w-50  h-100 p-3'>
