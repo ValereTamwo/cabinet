@@ -28,7 +28,7 @@ function Navbar() {
       <div className='navbar-collapse collapse marge justify-content-center' id='Submenu'>
         <ul className='navbar-nav ms-5 '>
           <li className='nav-item'><Link to='/' className='nav-link'>Accueil</Link></li>
-          <li className='nav-item'><Link to='/' className='nav-link'>Services</Link></li>
+          <li className='nav-item'><Link to='/contact' className='nav-link'>Contact</Link></li>
           <li className='nav-item'><Link to='/propos' className='nav-link'>A propos</Link></li>
         <li className='nav-item'><Link to='/galerie' className='nav-link'>Galerie</Link></li>
         <li className='nav-item'><Link to='/actualite' className='nav-link'>Actualite</Link></li>
@@ -37,9 +37,13 @@ function Navbar() {
         <li className='nav-item dropdown' ><a className='nav-link dropdown-toggle'  href='/' data-bs-toggle="dropdown">Prestations</a>
           <ul className='dropdown-menu  justify-content-center  ' >
             <span className='text-warning'> Choupo Francis </span>
-            <li><Link className='dropdown-item' to='/'>Penal</Link></li>
-            <li><Link className='dropdown-item' to='/'>Juridiction</Link></li>
-            <li><Link className='dropdown-item' to='/'>Deliberation</Link></li>
+            <li><Link className='dropdown-item' to='/prestations'>Droit Commerciales</Link></li>
+            <li><Link className='dropdown-item' to='/prestations'>Droit Immobilier</Link></li>
+            <li><Link className='dropdown-item' to='/prestations'>Droit Fiscal</Link></li>
+            <li><Link className='dropdown-item' to='/prestations'>Droit des Entreprises</Link></li>
+            <li><Link className='dropdown-item' to='/prestations'>Droit des Affaire</Link></li>
+            <li><Link className='dropdown-item' to='/prestations'>Droit Social</Link></li>
+              
 
           </ul>
           </li>
