@@ -91,7 +91,7 @@ function Footer() {
           </div>
           <div className='col-md-4 col-12 border border-0 mt-5 border-light p-3 rounded '>
             <span className='text-light'>
-              Vous aimez ce que vous voyez? alors contacter le concepteur du site : <strong>Valere Tamwo</strong>
+              Vous aimez ce que vous voyez <span className='text-bold fs-2 text-danger'> ?</span> Alors contacter le concepteur du site : <strong>Valere Tamwo</strong>
             </span>
               <div className='container text-light ' >
                       <div className='row gy-5 mt-1 '>

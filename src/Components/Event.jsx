@@ -5,6 +5,11 @@ import avocat1 from '../images/avocat1.jpg'
 import avocat2 from '../images/avocat2.jpeg'
 import avocat3 from '../images/avocat3.jpg'
 
+import img1 from '../images/img1.jpg'
+// import img2 from '../images/img2.jpg'
+import img3 from '../images/img3.jpg'
+
+
 
 export function Eventpass(props) {
   return (
@@ -44,13 +49,13 @@ export function Eventpass(props) {
                   <img src={tribunal} className='img-fluid' alt='#'/>
               </div>
               <div className='col-md-3 col-12 ms-3    mb-3  '>
-                  <img src={avocat} className='img-fluid' alt='#'/>
+                  <img src={img1} className='img-fluid' alt='#'/>
               </div>
               <div className='col-md-3 col-12 ms-3    mb-3  '>
-                  <img src={avocat1} className='img-fluid' alt='#'/>
+                  <img src={avocat2} className='img-fluid' alt='#'/>
               </div>
               <div className='col-md-3 col-12 ms-3    mb-3 '>
-                  <img src={avocat2} className='img-fluid' alt='#'/>
+                  <img src={img3} className='img-fluid' alt='#'/>
               </div>
 
             </div>
@@ -70,6 +75,15 @@ function Event() {
     lieu: 'Palais de Justice de Yaounde',
     image:""
   }
+
+    const event2 = {
+    name: 'Ceremonie de Prise de Poste',
+    titre:'Bareaux juridiques du cameroon',
+    date: '14 Avril 2022',
+    lieu: 'Palais de Justice de Yaounde',
+    image:""
+  }
+
   return (
     <>
        <div className='container p-3'>
@@ -81,7 +95,7 @@ function Event() {
         </li>
         </span>
       </div>
-      <Eventpass name={event.name} date={event.date} lieu={event.lieu} titre={event.titre} />
+      <Eventpass name={event2.name} date={event2.date} lieu={event2.lieu} titre={event2.titre} />
       <Eventpass name={event.name} date={event.date} lieu={event.lieu} titre={event.titre} />
       <Eventpass name={event.name} date={event.date} lieu={event.lieu} titre={event.titre} />
 
